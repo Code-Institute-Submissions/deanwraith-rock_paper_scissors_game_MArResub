@@ -80,6 +80,8 @@ The devices used were:
     Added intial Java(tie game and rock outcomes). Added to README.md
     * 23:06 30/07/2021 - Java and README
     Added script for paper outcomes. Added to README.md
+    * 00:47 30/07/2021 - Java and README
+    Added script for scissors, lizard and spock outcomes. Added to README.md
     
 
 ## 5. Technology Used
