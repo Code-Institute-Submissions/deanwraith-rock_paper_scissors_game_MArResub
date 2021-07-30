@@ -74,6 +74,8 @@ The devices used were:
 * Commit Diary
     * 17:07 30/07/2021 - Initial Commit
     Added boiler plate HTML and assets folder which includes the style.css file and a folder for media resources to be added at a later stage.
+    * 18:48 30/07/2021 - HTML, CSS and README
+    Added HTML and CSS content and styling for game. Added to README.md
     
 
 ## 5. Technology Used
