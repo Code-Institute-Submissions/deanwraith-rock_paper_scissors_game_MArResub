@@ -76,6 +76,8 @@ The devices used were:
     Added boiler plate HTML and assets folder which includes the style.css file and a folder for media resources to be added at a later stage.
     * 18:48 30/07/2021 - HTML, CSS and README
     Added HTML and CSS content and styling for game. Added to README.md
+    * 21:02 30/07/2021 - Java and README
+    Added intial Java(tie game and rock outcomes). Added to README.md
     
 
 ## 5. Technology Used
