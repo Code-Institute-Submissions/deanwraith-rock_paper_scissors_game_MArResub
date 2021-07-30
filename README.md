@@ -1,104 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors, Lizard and Spock Game
 
-Welcome USER_NAME,
+Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+## Table of Contents
 
-## Gitpod Reminders
+<ol>
+<li>UX</li>
+<li>
+Features
+<ol>
+<li>Balsamiq Mock Ups</li>
+<li>Existing Features</li>
+<li>Features to be added</li>
+</ol>
+</li>
+<li>
+Testing
+<ol>
+<li>Validation Testing</li>
+</ol>
+</li>
+<li>Developement Cycle</li>
+<li>Technology Used</li>
+<li>Deployment</li>
+<li>Credits</li>
+</ol>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## 1.UX
+User experience considerations
 
-`python3 -m http.server`
+## 2.Features
 
-A blue button should appear to click: _Make Public_,
+### 2.1 Balsamiq Mock-Ups
+Below are mock-ups made using Balsamiq showing the original design of the site on desktop and mobile.
 
-Another blue button should appear to click: _Open Browser_.
+**Home Page Mock-Up Desktop**
+![Game mock-up desktop]()
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Home Page Mock-Up Mobile**
+![Game mock-up mobile]()
 
-A blue button should appear to click: _Make Public_,
+### 2.2 Existing Features
+* Game Features
+    * 
+![]()
 
-Another blue button should appear to click: _Open Browser_.
+### 2.3 Features to be Added
+*Features can be discussed and added*
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## 3. Testing
+Testing of the site was done through the whole development of the site checking as a new feature or style was added on how that effected the specific pages and the functionality.
 
-To log into the Heroku toolbelt CLI:
+* Feature - Testing description. **Tested and passed**.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Responsiveness testing was done using several mobile devices of different size to see the site effectiveness at different resolutions. 
+The devices used were:
+* Iphone SE
+* IPad
+* HP Elite Book Laptop as well as the Inspect function on Google Chrome Browser to test most resolutions and devices.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### 3.1 Validation Testing
+* HTML
+    * W3C Validator
+    All HTML code was checked using this validator and was returned without any issues.
+* CSS
+    * Jigsaw Validator
+    All css code was tested using this validator and was returned with no issues.
 
-------
+### 3.2 Unfixed Bugs
+* Any bugs
 
-## Release History
+## 4. Developement Cycle
+* Commit Diary
+    * 17:07 30/07/2021 - Initial Commit
+    Added boiler plate HTML and assets folder which includes the style.css file and a folder for media resources to be added at a later stage.
+    
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## 5. Technology Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* HTML 5
+* CSS
+* Github
+* Gitpod
+* Balsamiq
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## 6. Deployment
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The site has been deployed using Github Pages.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* In the Github repository page for deanwraith/recycling the settings tab was selected.
+* In the settings page the Github Pages section was located towards the bottom of the page, with the new version there is a link to the dedicated Pages tab which was navigated to once the hyperlink text was selected.
+* Once on the Pages tab the master branch tab was selected in the source section and then save was clicked.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* The site was then live and can be found at https://deanwraith.github.io/recycling/
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## 7. Credits
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* Content
+    * Google fonts - The special fonts used for the project were sourced from Google fonts.
+    * Font Awesome - The icons used in the project were sourced from Font Awesome
+    * W3Schools - Used the resources as a guideline for various functionality. I used parts of the code supplied in the tutorials as a guideline and adjusted it where necessary for the dropdown menu styling and functionality. The flexbox tutorial to style the summary section on the home page and the content of the Reuse, Reduce and Recycle pages. I also used the responsiveness tutorial to adjust the flexbox sections for smaller resolutions. Finally I code in thr forms tutorial to style my question form and adjusted it to fit what I required the form to show. I also used the responsive code for the form to function.
+    
+* Media
+    * The images I used in the site were downloaded from Shutterstock using the verified licences.
+    * Videos were linked directly from the respective youtube pages.
