@@ -78,6 +78,8 @@ The devices used were:
     Added HTML and CSS content and styling for game. Added to README.md
     * 21:02 30/07/2021 - Java and README
     Added intial Java(tie game and rock outcomes). Added to README.md
+    * 23:06 30/07/2021 - Java and README
+    Added script for paper outcomes. Added to README.md
     
 
 ## 5. Technology Used
