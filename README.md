@@ -84,6 +84,8 @@ The devices used were:
     Added script for scissors, lizard and spock outcomes. Added to README.md
     * 09:32 31/07/2021 - CSS and README
     Added media queries for responsiveness. Added to README.md
+    * 11:35 31/07/2021 - CSS and README
+    Added styling to elements. Added to README.md
     
 
 ## 5. Technology Used

@@ -6,7 +6,7 @@ body {
 h1 {
     font-family: "Ubuntu", sans-serif;
     font-size: 2.5rem;
-    color: rgb(255, 101, 0);
+    color: orange;
     text-justify: inter-word;
 }
 
@@ -20,7 +20,7 @@ h1 {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5%;
+    padding: 20px 0;
     background: cornflowerblue;
 }
 
@@ -49,6 +49,8 @@ h1 {
     font-family: "Ubuntu", sans-serif;
     font-size: 2rem;
     line-height: 0.8;
+    color: black;
+    text-justify: inter-word;
 }
 
 .gestures button {
