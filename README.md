@@ -36,10 +36,10 @@ The design of this game has been focused around simplicity and convinience. The 
 Below are mock-ups made using Balsamiq showing the original design of the site on desktop and mobile. The design was changed during the process to streamline the responsiveness and game flow.
 
 **Home Page Mock-Up Desktop**
-![Game mock-up desktop]()
+![Game mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/Balsamiq_Desktop.png)
 
 **Home Page Mock-Up Mobile**
-![Game mock-up mobile]()
+![Game mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/Balsamiq_Mobile.png)
 
 ### 2.2 Existing Features
 * Game Features
@@ -98,6 +98,8 @@ The devices used were:
     Added styling to elements. Added to README.md
     * 14:31 31/07/2021 - README
     Added to README.md
+    * 15:11 31/07/2021 - README
+    Added to README.md and to images folder.
     
 ## 5. Technology Used
 
