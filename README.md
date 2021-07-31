@@ -1,4 +1,5 @@
 # Rock, Paper, Scissors, Lizard and Spock Game
+https://deanwraith.github.io/rock_paper_scissors_game/
 
 Rock, paper, scissors is a game of chance where 2 players have a choice of 3 moves that can be made at the same time with different outcomes depending on the move made. The game was expended by Sam Kass to include 2 more moves which are lizard and spock. This version was made popular by the tv series The Big Bang Theory. The game available on this page pits the user against the computer in a first to 5 wins scenario and the game will reset when one of the players has won.
 
@@ -115,7 +116,7 @@ The site has been deployed using Github Pages.
 * In the settings page the Github Pages section was located towards the bottom of the page, with the new version there is a link to the dedicated Pages tab which was navigated to once the hyperlink text was selected.
 * Once on the Pages tab the master branch tab was selected in the source section and then save was clicked.
 
-* The site was then live and can be found at https://deanwraith.github.io/recycling/
+* The site was then live and can be found at https://deanwraith.github.io/rock_paper_scissors_game/
 
 ## 7. Credits
 
