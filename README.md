@@ -30,6 +30,10 @@ Testing
 ## 1.UX
 The design of this game has been focused around simplicity and convinience. The whole game fits on a full screen for ease of use and visual balance. There is a large, clear area to display the user move and computer selection and a clear text area to inform the outcome of the game. The buttons have been seperated to allow ease of choice and the enlarging of the buttons makes it clear which move will be selected. The score area is simple and to the point with very little clutter so it is clear what the score is.
 
+![Full View desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/full_page.png)
+
+![Full View mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/full_page_mobile.png)
+
 ## 2.Features
 
 ### 2.1 Balsamiq Mock-Ups
@@ -44,13 +48,19 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 ### 2.2 Existing Features
 * Game Features
 * User and Computer move display - The 2 boxes display the moves selected by the user and randomly generated for the computer. The user move is displayed on the left and computer move on the right. 
-![]()
+![User and Computer move display](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/move_display.png)
 * Message area - The message area initially welcomes the player and directs the user to make their selection. Once the user makes a selection the message area alerts the outcome of the round. 
-![]()
+![Message area intro](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/message_intro.png)
+
+![Message area outcome](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/message_outcome.png)
+
 * Selection area - Five buttons make up the selection area. Each button is for a different move. Once clicked the users selection will be displayed as well as the randomly assigned computer move. The buttons in the selection area have a enlarge animation on hover to alert which button the user is over. 
-![]()
+![Selection area no expand](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/selection_no_expand.png)
+
+![Selection area expand](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/selection_expand.png)
+
 * Score area - The score area indicates how many rounds the user or computer have won. 
-![]()
+![Score area](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/score_area.png)
 
 ### 2.3 Features to be Added
 * Leaderboard - A possible option will be to allow users to register a username and to count how many consecutive games each user wins and to post that to a leaderboard.
@@ -100,6 +110,8 @@ The devices used were:
     Added to README.md
     * 15:11 31/07/2021 - README
     Added to README.md and to images folder.
+    * 15:18 31/07/2021 - README
+    Added to README.md.
     
 ## 5. Technology Used
 
