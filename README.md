@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard and Spock Game
 
-Introduction
+Rock, paper, scissors is a game of chance where 2 players have a choice of 3 moves that can be made at the same time with different outcomes depending on the move made. The game was expended by Sam Kass to include 2 more moves which are lizard and spock. This version was made popular by the tv series The Big Bang Theory. The game available on this page pits the user against the computer in a first to 5 wins scenario and the game will reset when one of the players has won.
 
 ## Table of Contents
 
@@ -27,12 +27,12 @@ Testing
 </ol>
 
 ## 1.UX
-User experience considerations
+The design of this game has been focused around simplicity and convinience. The whole game fits on a full screen for ease of use and visual balance. There is a large, clear area to display the user move and computer selection and a clear text area to inform the outcome of the game. The buttons have been seperated to allow ease of choice and the enlarging of the buttons makes it clear which move will be selected. The score area is simple and to the point with very little clutter so it is clear what the score is.
 
 ## 2.Features
 
 ### 2.1 Balsamiq Mock-Ups
-Below are mock-ups made using Balsamiq showing the original design of the site on desktop and mobile.
+Below are mock-ups made using Balsamiq showing the original design of the site on desktop and mobile. The design was changed during the process to streamline the responsiveness and game flow.
 
 **Home Page Mock-Up Desktop**
 ![Game mock-up desktop]()
@@ -42,16 +42,25 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 
 ### 2.2 Existing Features
 * Game Features
-    * 
+* User and Computer move display - The 2 boxes display the moves selected by the user and randomly generated for the computer. The user move is displayed on the left and computer move on the right. 
+![]()
+* Message area - The message area initially welcomes the player and directs the user to make their selection. Once the user makes a selection the message area alerts the outcome of the round. 
+![]()
+* Selection area - Five buttons make up the selection area. Each button is for a different move. Once clicked the users selection will be displayed as well as the randomly assigned computer move. The buttons in the selection area have a enlarge animation on hover to alert which button the user is over. 
+![]()
+* Score area - The score area indicates how many rounds the user or computer have won. 
 ![]()
 
 ### 2.3 Features to be Added
-*Features can be discussed and added*
+* Leaderboard - A possible option will be to allow users to register a username and to count how many consecutive games each user wins and to post that to a leaderboard.
+* Dark mode
 
 ## 3. Testing
-Testing of the site was done through the whole development of the site checking as a new feature or style was added on how that effected the specific pages and the functionality.
 
-* Feature - Testing description. **Tested and passed**.
+* Display area - This area should show the user selected icon and a randomly selected icon from the available options. **Tested and passed**.
+* Message area - The message area should show the welcome message on load up. It should then display a message alerting the outcome of the round eg. "Rock smashes Scissors, You Win!". The other outcomes include a loss and a tie round. The message should correctly display the 2 options selected and the outcome of those selected outcomes. **Tested and passed**.
+* Selection area - The buttons in the selection should enlarge when hovered over with the mouse pointer. Once clicked the selected move should display in the left box and the button click should trigger a random selection in the right box. **Tested and passed**.
+* Score area - The score area updates with each win for the user or computer. The function is triggered when the user selection is made. **Tested and passed**.
 
 Responsiveness testing was done using several mobile devices of different size to see the site effectiveness at different resolutions. 
 The devices used were:
@@ -86,12 +95,14 @@ The devices used were:
     Added media queries for responsiveness. Added to README.md
     * 11:35 31/07/2021 - CSS and README
     Added styling to elements. Added to README.md
+    * 14:31 31/07/2021 - README
+    Added to README.md
     
-
 ## 5. Technology Used
 
 * HTML 5
 * CSS
+* Javascript
 * Github
 * Gitpod
 * Balsamiq
@@ -100,7 +111,7 @@ The devices used were:
 
 The site has been deployed using Github Pages.
 
-* In the Github repository page for deanwraith/recycling the settings tab was selected.
+* In the Github repository page for deanwraith/rock_paper_scissors_game the settings tab was selected.
 * In the settings page the Github Pages section was located towards the bottom of the page, with the new version there is a link to the dedicated Pages tab which was navigated to once the hyperlink text was selected.
 * Once on the Pages tab the master branch tab was selected in the source section and then save was clicked.
 
@@ -111,8 +122,7 @@ The site has been deployed using Github Pages.
 * Content
     * Google fonts - The special fonts used for the project were sourced from Google fonts.
     * Font Awesome - The icons used in the project were sourced from Font Awesome
-    * W3Schools - Used the resources as a guideline for various functionality. I used parts of the code supplied in the tutorials as a guideline and adjusted it where necessary for the dropdown menu styling and functionality. The flexbox tutorial to style the summary section on the home page and the content of the Reuse, Reduce and Recycle pages. I also used the responsiveness tutorial to adjust the flexbox sections for smaller resolutions. Finally I code in thr forms tutorial to style my question form and adjusted it to fit what I required the form to show. I also used the responsive code for the form to function.
+    * W3Schools - Used the resources as a guideline for various functionality and styling.
     
 * Media
-    * The images I used in the site were downloaded from Shutterstock using the verified licences.
-    * Videos were linked directly from the respective youtube pages.
+    * The background image I used in the site was downloaded from Shutterstock using the verified licences.
