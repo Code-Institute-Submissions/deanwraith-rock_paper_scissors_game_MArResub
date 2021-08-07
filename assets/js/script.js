@@ -16,6 +16,7 @@ const computerShowIcon = document.querySelector('.comp i');
  */
 const randomClasses = ["far fa-hand-rock", "far fa-hand-paper", "far fa-hand-scissors", "far fa-hand-lizard", "far fa-hand-spock"];
 const text = document.getElementById('message');
+const textover = document.getElementById('endgame-message')
 
 /**
  * Game operation
@@ -167,12 +168,15 @@ const game = () => {
 game();
 
 function setOutcomeScreen() {
+    document.getElementById("interaction-section").style.display = "none";
     if (userscore > 5) {
-        // user won
-        document.getElementById("myModal").showModal();
-    } else {
-        // computer won
-        document.getElementById("myModal").showModal();
+        document.getElementById("interaction-section").style.display = "block";
+        textover.innerHTML = "You Win";
+        text.style.color = 'orange';
+    } else if (compscore > 5) {
+        document.getElementById("interaction-section").style.display = "block";
+        textover.innerHTML = "You Lose";
+        text.style.color = 'orange';
     }
 }
 

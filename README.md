@@ -112,8 +112,10 @@ The devices used were:
     Added to README.md and to images folder.
     * 15:18 31/07/2021 - README
     Added to README.md.
-    * 13:24 31/07/2021 - HTML, Java and README.md
+    * 13:24 07/08/2021 - HTML, Java and README.md
     Added landing page. Added result message when game ends. Edited README.md
+    * 16:29 07/08/2021 - HTML, Java and README.md
+    Edited result message when game ends. Edited README.md
     
 ## 5. Technology Used
 
