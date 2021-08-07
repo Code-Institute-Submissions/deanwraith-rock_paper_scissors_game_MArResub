@@ -169,10 +169,11 @@ game();
 function setOutcomeScreen() {
     if (userscore > 5) {
         // user won
-        alert("User Wins");
+        document.getElementById("myModal").showModal();
     } else {
         // computer won
-        alert("Computer Wins");
+        document.getElementById("myModal").showModal();
     }
 }
-console.log(setOutcomeScreen);
+
+setOutcomeScreen();
