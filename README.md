@@ -116,6 +116,8 @@ The devices used were:
     Added landing page. Added result message when game ends. Edited README.md
     * 16:29 07/08/2021 - HTML, Java and README.md
     Edited result message when game ends. Edited README.md
+     * 00:37 08/08/2021 - HTML, CSS and Java and README.md
+    Added content and styling to landing page and game page. Edited result message when game ends. Edited README.md
     
 ## 5. Technology Used
 

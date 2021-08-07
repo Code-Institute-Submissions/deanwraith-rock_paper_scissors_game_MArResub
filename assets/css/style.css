@@ -10,6 +10,7 @@ h1 {
     font-size: 2.5rem;
     color: orange;
     text-justify: inter-word;
+    text-decoration: none;
 }
 
 /* Move Display */
@@ -72,8 +73,28 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: orange;
+    background-color: #454545;
     z-index: 2;
+    border-radius: 20px;
+}
+
+#endgame-message {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 50px;
+    color: orange;
+}
+
+.gameover-message button {
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    font-size: 33px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Buttons */
@@ -104,6 +125,28 @@ h3 {
     font-size: 2rem;
     line-height: 1.5;
 }
+
+/* Footer */
+
+footer {
+    height: 75px;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks>li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+  }
+  
 
 /* Media Queries */
 

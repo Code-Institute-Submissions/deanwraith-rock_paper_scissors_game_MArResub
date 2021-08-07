@@ -172,11 +172,11 @@ function setOutcomeScreen() {
     if (userscore > 5) {
         document.getElementById("interaction-section").style.display = "block";
         textover.innerHTML = "You Win";
-        text.style.color = 'orange';
+        text.style.color = 'red';
     } else if (compscore > 5) {
         document.getElementById("interaction-section").style.display = "block";
         textover.innerHTML = "You Lose";
-        text.style.color = 'orange';
+        text.style.color = 'red';
     }
 }
 
