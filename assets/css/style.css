@@ -2,6 +2,8 @@ body {
     background: url('../images/big_bang_image.jpg');
     text-align: center;
 }
+
+/* Heading */
     
 h1 {
     font-family: "Ubuntu", sans-serif;
@@ -9,6 +11,8 @@ h1 {
     color: orange;
     text-justify: inter-word;
 }
+
+/* Move Display */
 
 .game {
     box-sizing: border-box;
@@ -45,6 +49,8 @@ h1 {
     color: orange;
 }
 
+/* Result Message */
+
 #message {
     font-family: "Ubuntu", sans-serif;
     font-size: 2rem;
@@ -52,6 +58,10 @@ h1 {
     color: black;
     text-justify: inter-word;
 }
+
+/* Popup Message */
+
+/* Buttons */
 
 .gestures button {
     margin: 0 7px;
@@ -71,13 +81,15 @@ h1 {
     transition-duration: 1.5s;
 }
 
+/* Score Area */
+
 h3 {
     font-family: "Ubuntu", sans-serif;
     font-size: 2rem;
     line-height: 1.5;
 }
 
-/** Media Queries **/
+/* Media Queries */
 
 @media screen and (max-width: 650px) {
     h1 {

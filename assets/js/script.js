@@ -152,8 +152,27 @@ const game = () => {
                 text.innerHTML = "Lizard poisens Spock, You Lose!";
                 text.style.color = 'orange';
             }
+
+            // Validate if game is finished
+            if (compscore > 5) {
+                setOutcomeScreen();
+            }
+            if (userscore > 5) {
+                setOutcomeScreen();
+            }
         });
     });
 }
 
 game();
+
+function setOutcomeScreen() {
+    if (userscore > 5) {
+        // user won
+        alert("User Wins");
+    } else {
+        // computer won
+        alert("Computer Wins");
+    }
+}
+console.log(setOutcomeScreen);
