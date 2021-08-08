@@ -30,37 +30,55 @@ Testing
 ## 1.UX
 The design of this game has been focused around simplicity and convinience. The whole game fits on a full screen for ease of use and visual balance. There is a large, clear area to display the user move and computer selection and a clear text area to inform the outcome of the game. The buttons have been seperated to allow ease of choice and the enlarging of the buttons makes it clear which move will be selected. The score area is simple and to the point with very little clutter so it is clear what the score is.
 
-![Full View desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/full_page.png)
-
-![Full View mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/full_page_mobile.png)
-
 ## 2.Features
 
 ### 2.1 Balsamiq Mock-Ups
 Below are mock-ups made using Balsamiq showing the original design of the site on desktop and mobile. The design was changed during the process to streamline the responsiveness and game flow.
 
-**Home Page Mock-Up Desktop**
-![Game mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/Balsamiq_Desktop.png)
+**Landing Page Mock-Up Desktop**
+![Landing Page mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_desktop_landing_page.png)
 
-**Home Page Mock-Up Mobile**
-![Game mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/Balsamiq_Mobile.png)
+**Landing Page Mock-Up Mobile**
+![Landing Page mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_mobile_landing_page.png)
+
+**Game Page Mock-Up Desktop**
+![Game Page mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_desktop_game.png)
+
+**Game Page Mock-Up Mobile**
+![Game Page mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_mobile_game.png)
+
+**Feedback Page Mock-Up Desktop**
+![Feedback Page mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_desktop_feedback_page.png)
+
+**Feedback Page Mock-Up Mobile**
+![Feedback Page mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_mobile_feedback_page.png)
 
 ### 2.2 Existing Features
+
+* Landing Page Features
+* Header - A link that redirects from any page back to the landing page. The introduction text gives some background information to the game.
+![Landing Page Header and Introduction](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_header_intro.png)
+* Rules - A youtube video that explains the rules of the game.
+![Landing Page Video Instruction](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_rules.png)
+* Game link - A link that redirects to the game page.
+![Landing Page Game Link](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_gamelink.png)
+* Feedback Form link - A link that redirects to the feedback form page.
+![Landing Page Feedback Form Link](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_feedbacklink.png)
+* Footer - Contains links to social media pages.
+![Landing Page Footer](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_footer.png)
+
+
 * Game Features
-* User and Computer move display - The 2 boxes display the moves selected by the user and randomly generated for the computer. The user move is displayed on the left and computer move on the right. 
-![User and Computer move display](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/move_display.png)
-* Message area - The message area initially welcomes the player and directs the user to make their selection. Once the user makes a selection the message area alerts the outcome of the round. 
-![Message area intro](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/message_intro.png)
+* The game page contains a game area with 2 display boxes that display user and computer moves. Below that is the outcome message section that displays the outcome of each round. Below that is the move selection buttons that allow the user to select their move. Finally the score area tracks how many rounds each player wins or loses.
+![Game Page Game Area](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_gameaera.png)
 
-![Message area outcome](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/message_outcome.png)
+![Game Page Game Area](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_function.png)
 
-* Selection area - Five buttons make up the selection area. Each button is for a different move. Once clicked the users selection will be displayed as well as the randomly assigned computer move. The buttons in the selection area have a enlarge animation on hover to alert which button the user is over. 
-![Selection area no expand](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/selection_no_expand.png)
+![Game Page Game Area Game Over](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_over.png)
 
-![Selection area expand](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/selection_expand.png)
-
-* Score area - The score area indicates how many rounds the user or computer have won. 
-![Score area](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/score_area.png)
+* Feedback Form Features
+* The feedback form contains areas for name, surname, email address and the any feedback from the user.
+![Feedback Form](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/feedback_page_form.png)
 
 ### 2.3 Features to be Added
 * Leaderboard - A possible option will be to allow users to register a username and to count how many consecutive games each user wins and to post that to a leaderboard.
@@ -158,6 +176,8 @@ The devices used were:
     Added added responsiveness for medium size screens. Edited README.md
     * 12:01 08/08/2021 - CSS and README.md
     Added added responsiveness for small size screens. Edited README.md
+    * 14:20 08/08/2021 - README.md
+    Edited README.md
     
 ## 5. Technology Used
 
@@ -187,3 +207,4 @@ The site has been deployed using Github Pages.
     
 * Media
     * The background image I used in the site was downloaded from Shutterstock using the verified licences.
+    * The video was linked directly from the youtube account page.
