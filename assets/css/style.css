@@ -13,6 +13,13 @@ h1 {
     text-decoration: none;
 }
 
+.intro {
+    font-family: "Open-sans", sans-serif;
+    font-size: 100%;
+    color: azure;
+    text-justify: inter-word;
+}
+
 /* Move Display */
 
 .game {
@@ -89,11 +96,15 @@ h1 {
     height: 90px;
     border-radius: 20px;
     background-color: whitesmoke;
-    font-size: 33px;
-    color: black;
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.gameover-message a {
+    font-family: "Open-sans", sans-serif;
+    font-size: 33px;
+    color: black;
     text-decoration: none;
 }
 
@@ -124,6 +135,13 @@ h3 {
     font-family: "Ubuntu", sans-serif;
     font-size: 2rem;
     line-height: 1.5;
+}
+
+.gamelink {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 200%;
+    color: azure;
+    text-decoration: none;
 }
 
 /* Footer */
