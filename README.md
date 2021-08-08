@@ -180,6 +180,8 @@ The devices used were:
     Edited README.md
     * 15:32 08/08/2021 - HTML, CSS and README.md
     Added a div to introduction section and responsiveness. Edited README.md
+    * 00:17 09/08/2021 - HTML, CSS and README.md
+    Styled and edited content and responsiveness. Edited README.md
     
 ## 5. Technology Used
 
