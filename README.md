@@ -122,6 +122,8 @@ The devices used were:
     Added feedback form with styling and link in landing page. Edited README.md
     * 09:39 08/08/2021 - HTML, CSS and README.md
     Added styling and functionality to entire page. Edited README.md
+    * 09:39 08/08/2021 - CSS and README.md
+    Added added responsiveness for medium size screens. Edited README.md
     
 ## 5. Technology Used
 

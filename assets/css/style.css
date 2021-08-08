@@ -244,6 +244,28 @@ input[type=submit] {
 
 /* Media Queries */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 2.2rem;
+    }
 
+    .game {
+        height: 55vh;
+    }
+
+    footer {
+        height: 15px;
+    }
+
+    .gameover-message {
+        position: fixed;
+        display: none;
+        margin: auto;
+        margin-top: 100px;
+        width: 75%;
+        height: 50%;
+        background-color: #454545;
+        z-index: 2;
+        border-radius: 20px;
+    }
 }
