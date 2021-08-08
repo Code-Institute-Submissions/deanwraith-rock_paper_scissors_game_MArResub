@@ -16,6 +16,7 @@ h1 {
 .intro {
     font-family: "Open-sans", sans-serif;
     font-size: 100%;
+    font-weight: 500;
     color: azure;
     text-justify: inter-word;
 }
@@ -95,8 +96,8 @@ h1 {
     width: 120px;
     height: 90px;
     border-radius: 20px;
-    background-color: whitesmoke;
-    border: none;
+    background-color: azure;
+    border: 1px solid black;
     outline: none;
     cursor: pointer;
 }
@@ -162,7 +163,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: white;
+    color: orange;
 }
 
 .feedback-form {
@@ -194,13 +195,15 @@ textarea {
 }
 
 label {
+    font-family: "Open-sans", sans-serif;
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: orange;
+    font-family: "Open-sans", sans-serif;
+    color: black;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -242,103 +245,5 @@ input[type=submit] {
 /* Media Queries */
 
 @media screen and (max-width: 650px) {
-    h1 {
-        font-size: 2rem;
-    }
 
-    .user,
-    .comp {
-        height: 175px;
-        width: 125px;
-        padding: 55px 0;
-    }
-
-    .gestures button {
-        height: 80px;
-        width: 80px;
-        font-size: 28px;
-    }
-
-    .user i {
-        font-size: 40px;
-    }
-
-    .comp i {
-        font-size: 40px;
-    }
-
-    #message {
-        font-size: 1.6rem;
-    }
-
-    h3 {
-        font-size: 1.6rem;
-        line-height: 0.5;
-    }
-
-}
-
-@media screen and (max-width: 415px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    .user,
-    .comp {
-        height: 150px;
-        width: 100px;
-        padding: 50px 0;
-    }
-
-    .gestures button {
-        height: 70px;
-        width: 70px;
-        font-size: 25px;
-    }
-
-    .user i {
-        font-size: 30px;
-    }
-
-    .comp i {
-        font-size: 30px;
-    }
-
-    #message {
-        font-size: 1.4rem;
-    }
-
-    h3 {
-        font-size: 1.4rem;
-        line-height: 0.2;
-    }
-}
-
-@media screen and (max-width: 315px) {
-    h1 {
-        font-size: 1.3rem;
-    }
-
-    .gestures button {
-        height: 65px;
-        width: 65px;
-        font-size: 22px;
-    }
-
-    .user i {
-        font-size: 40px;
-    }
-
-    .comp i {
-        font-size: 40px;
-    }
-
-    #message {
-        font-size: 1.2rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-        line-height: 0;
-    }
 }
