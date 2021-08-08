@@ -68,10 +68,39 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 
 ## 3. Testing
 
-* Display area - This area should show the user selected icon and a randomly selected icon from the available options. **Tested and passed**.
-* Message area - The message area should show the welcome message on load up. It should then display a message alerting the outcome of the round eg. "Rock smashes Scissors, You Win!". The other outcomes include a loss and a tie round. The message should correctly display the 2 options selected and the outcome of those selected outcomes. **Tested and passed**.
-* Selection area - The buttons in the selection should enlarge when hovered over with the mouse pointer. Once clicked the selected move should display in the left box and the button click should trigger a random selection in the right box. **Tested and passed**.
-* Score area - The score area updates with each win for the user or computer. The function is triggered when the user selection is made. **Tested and passed**.
+### Home Page
+| Function | Description | Result:Mobile | Result:Desktop |
+| --- | --- | --- | --- |
+| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
+| Instruction video | Short video that plays when clicked and does not repeat | Passed | Passed |
+| Game link | Link to game page that when clicked will redirect to game.html page | Passed | Passed |
+| Feedback link| Link to feedback form page that when clicked will redirect to feedback.html page | Passed | Passed |
+| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
+| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
+| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+
+### Game Page
+| Function | Description | Result:Mobile | Result:Desktop |
+| --- | --- | --- | --- |
+| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
+| Decision Display Boxes | Displays user selected move in left box matching button clicked in selection area. Simultaneously displays randomly generated move for computer in right box | Passed | Passed |
+| Outcome message text display | Displays the outcome of the round with specific messages targeted at each unique combination. Either, message + You Win! or message + You Lose! or It's a tie! | Passed | Passed |
+| Move choice buttons | Each button represents a possible move by way of an icon. The button expands on hover and when clicked displays the corresponding move and triggers a function to generate and display a random move for the computer | Passed | Passed |
+| Score Area | Both user and computer score start at 0. Each win will increase the respective winners score by 1. A tie round does not reflect on the score board. When either player reaches 5 wins a function is triggered to stop the game | Passed | Passed |
+| Game Result display | The display is hidden by default and triggered when either player reaches 5 wins. If the user has 5 wins a message stating You Win! will be displayed and You Lose! will be displayed if the computer reaches 5 wins. There is a play again button. | Passed | Passed |
+| Game Result display button | The button refreshes the game page when clicked allowing a new game to begin with the scores at 0. | Passed | Passed |
+| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
+| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
+| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+
+### Feedback Form Page
+| Function | Description | Result:Mobile | Result:Desktop |
+| --- | --- | --- | --- |
+| Header link | Links back to landing page when clicked, on all pages | Passed | Passed |
+| Feedback form | The form has sections for name, surname, email and feedback that are all required before the form can be submitted via the submit button at the bottom | Passed | Passed |
+| Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
+| Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
+| Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
 
 Responsiveness testing was done using several mobile devices of different size to see the site effectiveness at different resolutions. 
 The devices used were:
@@ -81,11 +110,14 @@ The devices used were:
 
 ### 3.1 Validation Testing
 * HTML
-    * W3C Validator
+    * [W3C Validator](https://validator.w3.org/)
     All HTML code was checked using this validator and was returned without any issues.
 * CSS
-    * Jigsaw Validator
-    All css code was tested using this validator and was returned with no issues.
+    * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+    All CSS code was tested using this validator and was returned with no issues.
+* JavaScript
+    * [JavaScript Tester online](https://www.webtoolkitonline.com/javascript-tester.html)
+    All JavaScript code was tested using this online tool and was returned with no issues.
 
 ### 3.2 Unfixed Bugs
 * Any bugs
