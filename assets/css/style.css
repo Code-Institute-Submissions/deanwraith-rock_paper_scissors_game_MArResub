@@ -237,7 +237,7 @@ input[type=submit] {
     clear: both;
 }
 
-.questions {
+.feedback {
     text-align: center;
     padding: 0 10px 0 10px;
 }
@@ -268,4 +268,72 @@ input[type=submit] {
         z-index: 2;
         border-radius: 20px;
     }
+}
+
+@media screen and (max-width: 350px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .rules iframe {
+        height: auto;
+        width: auto;
+    }
+
+    .intro {
+        font-size: 75%;
+    }
+
+    .feedback-form {
+        font-size: 100%;
+    }
+
+    .game {
+        height: 80vh;
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .user,
+    .comp {
+        height: 140px;
+        width: 90px;
+        padding: 45px 0;
+    }
+
+    .user i {
+        font-size: 50px;
+    }
+    
+    .comp i {
+        font-size: 50px;
+    }
+
+    #message {
+        font-size: 1.3rem;
+        line-height: 0.8;
+    }
+
+    .gestures button {
+        margin: 0 7px;
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        line-height: 0.2;
+    }
+
+    .gameover-message {
+        width: 80%;
+        height: 65%;
+        margin-top: 90px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
 }

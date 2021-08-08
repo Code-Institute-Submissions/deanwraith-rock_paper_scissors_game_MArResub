@@ -124,6 +124,8 @@ The devices used were:
     Added styling and functionality to entire page. Edited README.md
     * 09:39 08/08/2021 - CSS and README.md
     Added added responsiveness for medium size screens. Edited README.md
+    * 12:01 08/08/2021 - CSS and README.md
+    Added added responsiveness for small size screens. Edited README.md
     
 ## 5. Technology Used
 
