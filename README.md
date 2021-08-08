@@ -178,6 +178,8 @@ The devices used were:
     Added added responsiveness for small size screens. Edited README.md
     * 14:20 08/08/2021 - README.md
     Edited README.md
+    * 15:32 08/08/2021 - HTML, CSS and README.md
+    Added a div to introduction section and responsiveness. Edited README.md
     
 ## 5. Technology Used
 
