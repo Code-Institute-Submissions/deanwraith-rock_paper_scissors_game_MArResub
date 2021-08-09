@@ -34,12 +34,20 @@
 
         <h2 id="message"> First to 5. Choose your move below. Ready, GO!</h2>
 
-        <div class="gameover-message" id="interaction-section">
-            <h2 id="endgame-message">GAME OVER</h2>
-            <button>
-                <a href="game.html">Play Again</a>
-            </button>
-        </div>
+            <div class="gameover-message" id="userWinMessage">
+                <h2 id="endgame-message">You Won!</h2>
+                <iframe src="https://giphy.com/embed/vN3fMMSAmVwoo" width="240" height="135" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <button>
+                    <a href="game.html">Play Again</a>
+                </button>
+            </div>
+            <div class="gameover-message" id="compWinMessage">
+                <h2 id="endgame-message">You Lost!</h2>
+                <iframe src="https://giphy.com/embed/3htkfUBTmXXaEgbQM2" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <button>
+                    <a href="game.html">Play Again</a>
+                </button>
+            </div>
 
         <div class="gestures">
             <button class="far fa-hand-rock" id="rock"></button>

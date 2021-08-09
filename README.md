@@ -182,6 +182,8 @@ The devices used were:
     Added a div to introduction section and responsiveness. Edited README.md
     * 00:17 09/08/2021 - HTML, CSS and README.md
     Styled and edited content and responsiveness. Edited README.md
+    * 08:45 09/08/2021 - HTML, CSS, JavaScript and README.md
+    Styled and edited content of result message and responsiveness. Edited README.md
     
 ## 5. Technology Used
 

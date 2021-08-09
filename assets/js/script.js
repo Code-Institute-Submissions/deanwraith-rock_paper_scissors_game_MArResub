@@ -168,15 +168,11 @@ const game = () => {
 game();
 
 function setOutcomeScreen() {
-    document.getElementById("interaction-section").style.display = "none";
+    document.getElementById("userWinMessage", "compWinMessage").style.display = "none";
     if (userscore > 5) {
-        document.getElementById("interaction-section").style.display = "block";
-        textover.innerHTML = "You Win";
-        text.style.color = 'red';
+        document.getElementById("userWinMessage").style.display = "block";
     } else if (compscore > 5) {
-        document.getElementById("interaction-section").style.display = "block";
-        textover.innerHTML = "You Lose";
-        text.style.color = 'red';
+        document.getElementById("compWinMessage").style.display = "block";
     }
 }
 
