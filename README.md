@@ -252,5 +252,6 @@ The site has been deployed using Github Pages.
 ### Media
     * The background image I used in the site was downloaded from Shutterstock using the verified licences.
     * The video was linked directly from the youtube account page.
+    * Gifs were sourced from Giphy website.
 
 [Back to Table of Contents](#table-of-contents)
