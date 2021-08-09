@@ -17,7 +17,7 @@ Rock, paper, scissors is a game of chance where 2 players have a choice of 3 mov
         - [Feedback Page Mock-up Mobile](#feedback-page-mobile)
     * [Existing Features](#existing-features)
         - [Landing Page Features](#landing-page-features)
-        - [Game Page Features](#game-page-features)
+        - [Game Page Features](#game-features)
         - [Feedback Form Features](#feedback-form-features)
     * [Features to be added](#features-to-be-added)
 - [Testing](#testing)
