@@ -3,59 +3,72 @@ https://deanwraith.github.io/rock_paper_scissors_game/
 
 Rock, paper, scissors is a game of chance where 2 players have a choice of 3 moves that can be made at the same time with different outcomes depending on the move made. The game was expended by Sam Kass to include 2 more moves which are lizard and spock. This version was made popular by the tv series The Big Bang Theory. The game available on this page pits the user against the computer in a first to 5 wins scenario and the game will reset when one of the players has won.
 
-## Table of Contents
+# Table of Contents
 
-<ol>
-<li>UX</li>
-<li>
-Features
-<ol>
-<li>Balsamiq Mock Ups</li>
-<li>Existing Features</li>
-<li>Features to be added</li>
-</ol>
-</li>
-<li>
-Testing
-<ol>
-<li>Validation Testing</li>
-</ol>
-</li>
-<li>Developement Cycle</li>
-<li>Technology Used</li>
-<li>Deployment</li>
-<li>Credits</li>
-</ol>
+- [UX](#ux)
+- [Features](#features)
+    * [Wireframes](#wireframes)
+        - [Landing Page Mock-up Desktop](#landing-page-desktop)
+        - [Landing Page Mock-up Mobile](#landing-page-mobile)
+        - [Game Page Mock-up Desktop](#game-page-desktop)
+        - [Game Page Mock-up Mobile](#game-page-mobile)
+        - [Feedback Page Mock-up Desktop](#feedback-page-desktop)
+        - [Feedback Page Mock-up Mobile](#feedback-page-mobile)
+    * [Existing Features](#existing-features)
+        - [Landing Page Features](#landing-page-features)
+        - [Game Page Features](#game-page-features)
+        - [Feedback Form Features](#feedback-form-features)
+    * [Features to be added](#features-to-be-added)
+- [Testing](#testing)
+    * [Home Page](#home-page)
+    * [Game Page](#game-page)
+    * [Feedback Form Page](#feedback-form-page)
+    * [Responsiveness Testing](#responsiveness-testing)
+    * [Validation Testing](#validation-testing)
+    * [Bugs](#bugs)
+- [Developement Cycle](#developement-cycle)
+    * [Commit Diary](#commit-diary)
+- [Technology Used](#technology-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    * [Content](#content)
+    * [Media](#media)
 
-## 1.UX
+## UX
 The design of this game has been focused around simplicity and convinience. The whole game fits on a full screen for ease of use and visual balance. There is a large, clear area to display the user move and computer selection and a clear text area to inform the outcome of the game. The buttons have been seperated to allow ease of choice and the enlarging of the buttons makes it clear which move will be selected. The score area is simple and to the point with very little clutter so it is clear what the score is.
 
-## 2.Features
+The goals for the first time user are to experience a new version of a well known game and feel that the outcome is random and fair. The game should draw users back to play again and try to find a strategy that might work or just play to enjoy some down time.
 
-### 2.1 Balsamiq Mock-Ups
+[Back to Table of Contents](#table-of-contents)
+
+## Features
+
+### Wireframes
 Below are mock-ups made using Balsamiq showing the original design of the site on desktop and mobile. The design was changed during the process to streamline the responsiveness and game flow.
 
-**Landing Page Mock-Up Desktop**
+### Landing Page Desktop
 ![Landing Page mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_desktop_landing_page.png)
 
-**Landing Page Mock-Up Mobile**
+### Landing Page Mobile
 ![Landing Page mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_mobile_landing_page.png)
 
-**Game Page Mock-Up Desktop**
+### Game Page Desktop
 ![Game Page mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_desktop_game.png)
 
-**Game Page Mock-Up Mobile**
+### Game Page Mobile
 ![Game Page mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_mobile_game.png)
 
-**Feedback Page Mock-Up Desktop**
+### Feedback Page Desktop
 ![Feedback Page mock-up desktop](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_desktop_feedback_page.png)
 
-**Feedback Page Mock-Up Mobile**
+### Feedback Page Mobile
 ![Feedback Page mock-up mobile](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/balsamiq_mobile_feedback_page.png)
 
-### 2.2 Existing Features
+[Back to Table of Contents](#table-of-contents)
 
-* Landing Page Features
+## Existing Features
+
+### Landing Page Features
 * Header - A link that redirects from any page back to the landing page. The introduction text gives some background information to the game.
 ![Landing Page Header and Introduction](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_header_intro.png)
 * Rules - A youtube video that explains the rules of the game.
@@ -67,8 +80,9 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 * Footer - Contains links to social media pages.
 ![Landing Page Footer](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/landing_page_footer.png)
 
+[Back to Table of Contents](#table-of-contents)
 
-* Game Features
+### Game Features
 * The game page contains a game area with 2 display boxes that display user and computer moves. Below that is the outcome message section that displays the outcome of each round. Below that is the move selection buttons that allow the user to select their move. Finally the score area tracks how many rounds each player wins or loses.
 ![Game Page Game Area](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_gameaera.png)
 
@@ -76,15 +90,19 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 
 ![Game Page Game Area Game Over](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_over.png)
 
-* Feedback Form Features
+[Back to Table of Contents](#table-of-contents)
+
+### Feedback Form Features
 * The feedback form contains areas for name, surname, email address and the any feedback from the user.
 ![Feedback Form](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/feedback_page_form.png)
 
-### 2.3 Features to be Added
+### Features to be Added
 * Leaderboard - A possible option will be to allow users to register a username and to count how many consecutive games each user wins and to post that to a leaderboard.
 * Dark mode
 
-## 3. Testing
+[Back to Table of Contents](#table-of-contents)
+
+## Testing
 
 ### Home Page
 | Function | Description | Result:Mobile | Result:Desktop |
@@ -96,6 +114,8 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 | Facebook Icon | Redirects to Facebook in a new window when clicked, on all pages | Passed | Passed |
 | Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
 | Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
+
+[Back to Table of Contents](#table-of-contents)
 
 ### Game Page
 | Function | Description | Result:Mobile | Result:Desktop |
@@ -111,6 +131,8 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 | Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
 | Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
 
+[Back to Table of Contents](#table-of-contents)
+
 ### Feedback Form Page
 | Function | Description | Result:Mobile | Result:Desktop |
 | --- | --- | --- | --- |
@@ -120,13 +142,16 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 | Twitter Icon | Redirects to Twitter in a new window when clicked, on all pages | Passed | Passed |
 | Instagram Icon | Redirects to Instagram in a new window when clicked, on all pages | Passed | Passed |
 
+[Back to Table of Contents](#table-of-contents)
+
+### Responsiveness Testing
 Responsiveness testing was done using several mobile devices of different size to see the site effectiveness at different resolutions. 
 The devices used were:
 * Iphone SE
 * IPad
 * HP Elite Book Laptop as well as the Inspect function on Google Chrome Browser to test most resolutions and devices.
 
-### 3.1 Validation Testing
+### Validation Testing
 * HTML
     * [W3C Validator](https://validator.w3.org/)
     All HTML code was checked using this validator and was returned without any issues.
@@ -137,11 +162,13 @@ The devices used were:
     * [JavaScript Tester online](https://www.webtoolkitonline.com/javascript-tester.html)
     All JavaScript code was tested using this online tool and was returned with no issues.
 
-### 3.2 Unfixed Bugs
+### Bugs
 * Any bugs
 
-## 4. Developement Cycle
-* Commit Diary
+[Back to Table of Contents](#table-of-contents)
+
+## Developement Cycle
+### Commit Diary
     * 17:07 30/07/2021 - Initial Commit
     Added boiler plate HTML and assets folder which includes the style.css file and a folder for media resources to be added at a later stage.
     * 18:48 30/07/2021 - HTML, CSS and README
@@ -186,17 +213,21 @@ The devices used were:
     Styled and edited content of result message and responsiveness. Edited README.md
     * 12:48 09/08/2021 - HTML, CSS, JavaScript and README.md
     Styled and edited content of result message and responsiveness. Edited README.md
+    * 15:57 09/08/2021 - README.md
+    Edited README.md and added image to assets.
     
-## 5. Technology Used
+[Back to Table of Contents](#table-of-contents)
 
-* HTML 5
-* CSS
+## Technology Used
+
+* HTML5
+* CSS3
 * Javascript
 * Github
 * Gitpod
 * Balsamiq
 
-## 6. Deployment
+## Deployment
 
 The site has been deployed using Github Pages.
 
@@ -206,13 +237,17 @@ The site has been deployed using Github Pages.
 
 * The site was then live and can be found at https://deanwraith.github.io/rock_paper_scissors_game/
 
-## 7. Credits
+[Back to Table of Contents](#table-of-contents)
 
-* Content
+## Credits
+
+### Content
     * Google fonts - The special fonts used for the project were sourced from Google fonts.
     * Font Awesome - The icons used in the project were sourced from Font Awesome
     * W3Schools - Used the resources as a guideline for various functionality and styling.
     
-* Media
+### Media
     * The background image I used in the site was downloaded from Shutterstock using the verified licences.
     * The video was linked directly from the youtube account page.
+
+[Back to Table of Contents](#table-of-contents)
