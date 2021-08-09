@@ -100,15 +100,18 @@ h1 {
 
 #endgame-message {
     font-family: "Ubuntu", sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     color: orange;
 }
 
 .gameover-message button {
-    width: 120px;
-    height: 90px;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
     border-radius: 20px;
-    background-color: azure;
+    background-color: black;
     border: 1px solid black;
     outline: none;
     cursor: pointer;
@@ -116,9 +119,13 @@ h1 {
 
 .gameover-message a {
     font-family: "Open-sans", sans-serif;
-    font-size: 33px;
-    color: blue;
+    font-size: 25px;
+    color: orange;
     text-decoration: none;
+}
+
+.gameover-message iframe {
+    margin: auto;
 }
 
 /* Buttons */
@@ -373,5 +380,15 @@ input[type=submit] {
         font-size: 300%; 
         float: inline-start;
         padding: 5%;
+    }
+
+    #userWinMessage iframe {
+        height: auto;
+        width: 95%;
+    }
+
+    #compWinMessage iframe {
+        height: auto;
+        width: 85%;
     }
 }
