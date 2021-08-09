@@ -89,7 +89,9 @@ Below are mock-ups made using Balsamiq showing the original design of the site o
 
 ![Game Page Game Area](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_function.png)
 
-![Game Page Game Area Game Over](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/game_page_over.png)
+![Game Page Game Area You Win](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/win_message.png)
+
+![Game Page Game Area You Lose](https://github.com/deanwraith/rock_paper_scissors_game/blob/main/assets/images/lose_message.png)
 
 [Back to Table of Contents](#table-of-contents)
 
