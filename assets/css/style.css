@@ -12,6 +12,7 @@ h1 {
     text-justify: inter-word;
     text-decoration: none;
 }
+/* Div on landing page */
 
 .landing {
     width: 95%;
@@ -24,6 +25,7 @@ h1 {
     margin-right: auto;
     padding: 1%;
 }
+/* Introduction text */
 
 .intro {
     font-family: "Open-sans", sans-serif;
@@ -157,6 +159,8 @@ h3 {
     line-height: 1.5;
 }
 
+/* Text game link */
+
 .gamelink {
     font-family: "Ubuntu", sans-serif;
     font-size: 200%;
@@ -200,7 +204,7 @@ a {
     text-decoration: none;
 }
 
-/* question form */
+/* Question form */
 
 input[type=text],
 select,

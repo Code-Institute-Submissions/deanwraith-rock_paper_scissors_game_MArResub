@@ -167,6 +167,9 @@ const game = () => {
 
 game();
 
+/**
+ * Message for game result display function
+ */
 function setOutcomeScreen() {
     document.getElementById("userWinMessage", "compWinMessage").style.display = "none";
     if (userscore > 5) {
@@ -177,7 +180,3 @@ function setOutcomeScreen() {
 }
 
 setOutcomeScreen();
-
-/**
- * Form
- */
