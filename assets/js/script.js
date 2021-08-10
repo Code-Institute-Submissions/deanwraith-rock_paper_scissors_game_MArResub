@@ -170,8 +170,16 @@ game();
 /**
  * Message for game result display function
  */
-function setOutcomeScreen() {
-    document.getElementById("userWinMessage", "compWinMessage").style.display = "none";
+ function setOutcomeScreen() {
+    let userWinMessage = document.getElementById("userWinMessage");
+    let compWinMessage = document.getElementById("compWinMessage");
+    if (userWinMessage != null) {
+        userWinMessage.style.display = "none";
+    }
+    if (compWinMessage != null) {
+        compWinMessage.style.display = "none";
+    }
+
     if (userscore > 5) {
         document.getElementById("userWinMessage").style.display = "block";
     } else if (compscore > 5) {

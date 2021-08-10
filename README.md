@@ -218,6 +218,8 @@ The devices used were:
     Styled and edited content of result message and responsiveness. Edited README.md
     * 15:57 09/08/2021 - README.md
     Edited README.md and added image to assets.
+    * 21:51 10/08/2021 - README.md
+    Fix console fault and styling on landing page. Edited README.md.
     
 [Back to Table of Contents](#table-of-contents)
 
