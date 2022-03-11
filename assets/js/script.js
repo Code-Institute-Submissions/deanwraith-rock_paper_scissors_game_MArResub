@@ -16,7 +16,7 @@ const computerShowIcon = document.querySelector('.comp i');
  */
 const randomClasses = ["far fa-hand-rock", "far fa-hand-paper", "far fa-hand-scissors", "far fa-hand-lizard", "far fa-hand-spock"];
 const text = document.getElementById('message');
-const textover = document.getElementById('endgame-message')
+const textover = document.getElementById('endgame-message');
 
 /**
  * Game operation
@@ -163,7 +163,7 @@ const game = () => {
             }
         });
     });
-}
+};
 
 game();
 
