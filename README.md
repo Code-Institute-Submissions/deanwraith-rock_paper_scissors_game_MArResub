@@ -220,6 +220,10 @@ The devices used were:
     Edited README.md and added image to assets.
     * 21:51 10/08/2021 - README.md
     Fix console fault and styling on landing page. Edited README.md.
+    * 11:00 11/03/2022 - Validation Corrections
+    Corrected validation issues found on index and game files.
+    * 11:02 11/03/2022 - README.md
+    Edited README.md.
     
 [Back to Table of Contents](#table-of-contents)
 
