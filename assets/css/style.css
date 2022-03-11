@@ -100,7 +100,13 @@ h1 {
     border-radius: 20px;
 }
 
-#endgame-message {
+#endgame-message-win {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 35px;
+    color: orange;
+}
+
+#endgame-message-loss {
     font-family: "Ubuntu", sans-serif;
     font-size: 35px;
     color: orange;
@@ -315,7 +321,7 @@ input[type=submit] {
         height: 850px;
     }
 
-    .rules iframe {
+    .rules embed {
         height: auto;
         width: auto;
     }
@@ -386,12 +392,12 @@ input[type=submit] {
         padding: 5%;
     }
 
-    #userWinMessage iframe {
+    #userWinMessage embed {
         height: auto;
         width: 95%;
     }
 
-    #compWinMessage iframe {
+    #compWinMessage embed {
         height: auto;
         width: 85%;
     }
